@@ -39,7 +39,7 @@ p,li{
 }
 h1,h2,h3{
     margin-bottom: .0.5em;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     font-weight: 500;
 }
 
@@ -115,8 +115,9 @@ h1,h2,h3{
 
 .header{
     position: relative;
-    height: 96vh;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url('./header-image.jpg');
+    height: 100vh;
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url('./header-image.jpg'); */
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url('./img2.jpg');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -181,7 +182,7 @@ h1{
 
 /* ############################## show case styling ####################### */
 .show-case{
-    background-color: #ddd;
+    background-color: #CFD2CF;
     padding: 10rem 0;
 }
 
@@ -230,6 +231,7 @@ h1{
 /* ###################### features section styling wraper box ################## */
 .features{
     padding: 10rem 0;
+    background-color: #ECE8DD;
 }
 .box{
     width: 33.3333%;
@@ -278,7 +280,7 @@ h1{
 
 
 .about{
-    margin: 2rem 0rem;
+    margin: 0.5rem 0rem;
     /* border: 2px solid green;  */
     padding: 5rem 0rem;
     color: white;
@@ -375,6 +377,9 @@ h1{
 
 
 /* ############# contact banner ############## */
+body{
+    background-color: #CFD2CF;
+}
 .cact{
     /* border: 10px solid black; */
     width: 100%;
