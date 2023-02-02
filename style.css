@@ -103,14 +103,17 @@ h1,h2,h3{
 }
 .btn-primary:hover{
     background-color: #ddd;
+    
 }
 .btn-secondary{
     border: 2px solid #f33b3b ;
     color: #f33b3b;
     border-radius: 10em;
+    
 }
 .btn-secondary:hover{
     background-color: #fcf3f4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .header{
@@ -183,6 +186,8 @@ h1{
 /* ############################## show case styling ####################### */
 .show-case{
     background-color: #CFD2CF;
+    /* background-color: white; */
+  
     padding: 10rem 0;
 }
 
@@ -227,6 +232,10 @@ h1{
     clear: both;
 }
 
+
+.img-box :hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 /* ###################### features section styling wraper box ################## */
 .features{
